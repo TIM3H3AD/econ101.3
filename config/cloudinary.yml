@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: detroit-poultry-consortium
+  api_key: '614761699799358'
+  api_secret: MBOt3umdSCpnWavJgWIkVdTiIvc
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: detroit-poultry-consortium
+  api_key: '614761699799358'
+  api_secret: MBOt3umdSCpnWavJgWIkVdTiIvc
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: detroit-poultry-consortium
+  api_key: '614761699799358'
+  api_secret: MBOt3umdSCpnWavJgWIkVdTiIvc
+  enhance_image_tag: true
+  static_image_support: false

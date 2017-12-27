@@ -1,0 +1,172 @@
+@import "bootstrap";
+/* universal */
+
+html {
+margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+  text-align: center;
+  background-color:grey;
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+	padding-top: 20px; 
+	text-align: center;
+	background-color:grey;
+    }
+
+table {
+float: center;
+text-align: center;
+border: 1px solid white;
+margin: 5px;
+}
+    
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+	background-color:black;
+  }
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.col-centered{
+    float: center;
+    margin: 0 auto;
+}
+  
+/* typography */
+
+a:link, a:visited 
+	{
+	font-family: 'Share Tech Mono';
+	background-color: grey;
+	font-size: .75em;
+	style: underline;
+    color: cyan;
+    text-align: center;
+    display: inline-block;
+	}
+
+a:hover {
+	font-family: 'Share Tech Mono';
+	font-size: .75em;
+    color: cyan;
+    background-color: grey;
+	}
+
+a:active {
+font-family: 'Share Tech Mono';
+background-color: white;
+font-size: .75em;
+    color: black;
+	}
+	
+small {
+font-family: 'Share Tech Mono';
+  font-size: 1em;
+  letter-spacing: 1px;
+  color:pink;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+tiny {
+font-family: 'Share Tech Mono';
+  font-size: .75em;
+  letter-spacing: 1px;
+  color:pink;
+  margin-bottom: 2px;
+  text-align: justify;
+  background-color:grey;
+}
+
+
+p {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 2em;
+  text-align: center;
+  letter-spacing: 1px;
+  color:black;
+  margin-bottom: 10px;
+}
+
+
+h1 {       	/* DPC HEADER */
+  font-family: 'Monoton', cursive;
+  font-size: 2.5em;
+  letter-spacing: 0px;
+  text-align: center;
+  color: orange;
+  vertical-align: bottom;
+}
+
+h2 {		/* title */
+font-family: 'Monofett', cursive;
+  font-size: 4em;
+  letter-spacing: 0px;
+  color:white;
+  text-align: center;
+}
+
+h3 {		/* show*/
+font-family: 'Share Tech Mono';
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  color:white;
+ text-align: center;
+}
+
+h4 { 		/* inside meme */
+font-family: 'Permanent Marker';    
+    font-size: 2em;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    vertical-align: middle;
+	color:pink;
+    text-align: left;
+}
+
+h5 {		/* MENU TOP */
+font-family: 'Share Tech Mono';
+  font-size: 2em;
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+  color:black;
+  text-align: center;
+}
+
+h6 {		/* INDEX */
+font-family: 'Permanent Marker';
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+  color:pink;
+  text-align: center;
+}
+
+h7 {		/* BTC address */
+font-family: 'Share Tech Mono';
+  font-size: 1em;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  color:orange;
+  text-align: center;
+}
+
+hr {
+  clear: left;
+}
+
+/* header */
+
+/* footer */
+

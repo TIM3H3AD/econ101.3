@@ -1,0 +1,23 @@
+class ImageUploader < CarrierWave::Uploader::Base
+  
+  include Cloudinary::CarrierWave
+  
+  version :standard do
+    process :eager => true
+    process :resize_to_fill => [300, 300, :center]
+    process :convert => 'jpg'   
+    cloudinary_transformation :quality => 90       
+  end
+  
+  version :thumbnail do
+    process :eager => true
+    process :resize_to_fill => [150, 150, :center]
+    process :convert => 'jpg'   
+    cloudinary_transformation :quality => 90 
+
+  end
+end
+
+
+
+

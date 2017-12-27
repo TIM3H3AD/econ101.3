@@ -1,0 +1,14 @@
+class Meme < ApplicationRecord
+  mount_uploader :image, ImageUploader
+  belongs_to :creator, class_name: User
+
+  ###################################
+
+  validates :image, presence: true
+  validates :text, presence: true
+  
+  default_scope -> {order('created_at desc')}
+
+  end
+
+
