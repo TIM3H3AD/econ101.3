@@ -1,0 +1,4 @@
+<p><%= Time.zone.now.strftime("%A") %></p>
+<small>contact <a href="mailto:fdic.313@gmail.com">to update this site</a></small><br>
+<small> Ideas for a crypto meet up </small><br>
+<small> {ok} </small>

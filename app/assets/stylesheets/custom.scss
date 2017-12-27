@@ -6,7 +6,7 @@ margin-left: 10%;
     margin-right: 10%;
     display: inline-block;
   text-align: center;
-  background-color:grey;
+  background-color:white;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
     display: inline-block;
 	padding-top: 20px; 
 	text-align: center;
-	background-color:grey;
+	background-color:white;
     }
 
 table {
@@ -50,7 +50,7 @@ a:link, a:visited
 	background-color: grey;
 	font-size: .75em;
 	style: underline;
-    color: cyan;
+    color: red;
     text-align: center;
     display: inline-block;
 	}
@@ -59,21 +59,21 @@ a:hover {
 	font-family: 'Share Tech Mono';
 	font-size: .75em;
     color: cyan;
-    background-color: grey;
+    background-color: pink;
 	}
 
 a:active {
 font-family: 'Share Tech Mono';
 background-color: white;
 font-size: .75em;
-    color: black;
+    color: red;
 	}
 	
 small {
 font-family: 'Share Tech Mono';
   font-size: 1em;
   letter-spacing: 1px;
-  color:pink;
+  color:black;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -82,7 +82,7 @@ tiny {
 font-family: 'Share Tech Mono';
   font-size: .75em;
   letter-spacing: 1px;
-  color:pink;
+  color:black;
   margin-bottom: 2px;
   text-align: justify;
   background-color:grey;
@@ -90,9 +90,9 @@ font-family: 'Share Tech Mono';
 
 
 p {
-  font-family: 'Reenie Beanie', cursive;
-  font-size: 2em;
-  text-align: center;
+font-family: 'Permanent Marker';  
+  font-size: 4em;
+  text-align: left;
   letter-spacing: 1px;
   color:black;
   margin-bottom: 10px;
@@ -100,8 +100,8 @@ p {
 
 
 h1 {       	/* DPC HEADER */
-  font-family: 'Monoton', cursive;
-  font-size: 2.5em;
+font-family: 'Permanent Marker'; 
+  font-size: 4em;
   letter-spacing: 0px;
   text-align: center;
   color: orange;
@@ -112,7 +112,7 @@ h2 {		/* title */
 font-family: 'Monofett', cursive;
   font-size: 4em;
   letter-spacing: 0px;
-  color:white;
+  color:orange;
   text-align: center;
 }
 

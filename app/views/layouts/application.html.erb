@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta property="og:title" content="order for a crypto meetup"/>
+      <meta property="og:url" content="https://limitless-earth-8780.herokuapp.com"/>
+      <meta property="og:site_name" content="17XbNyk5J3YB8v25gvAuDCSYUzz2HFaXH7"/>
+      <meta property="og:type" content="website"/>
+
+      <link href="https://fonts.googleapis.com/css?family=Monofett|Monoton|Permanent+Marker|Reenie+Beanie|Share+Tech+Mono" rel='stylesheet' type='text/css'> 	
+      <!-- Required meta tags always come first -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+      <title>17XbNyk5J3YB8v25gvAuDCSYUzz2HFaXH7</title>
+
+      <%= stylesheet_link_tag 'custom', media: 'all', 'data-turbolinks-track' => true %>
+      <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+      <%= csrf_meta_tags %>
+    </head>
+    <body>
+    <%= render 'layouts/header' %>
+        <div class="container">
+          <%= render partial: 'shared/flash' unless flash.empty? %>
+          <%= yield %>
+        </div>
+       <%= render 'layouts/footer' %> 
+    </body>
+</html>
+
+

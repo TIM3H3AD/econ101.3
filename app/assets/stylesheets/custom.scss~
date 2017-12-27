@@ -19,7 +19,7 @@ body {
     }
 
 table {
-float: center;
+float: left;
 text-align: center;
 border: 1px solid white;
 margin: 5px;
@@ -38,7 +38,7 @@ table.center {
 }
 
 .col-centered{
-    float: center;
+    float: left;
     margin: 0 auto;
 }
   
